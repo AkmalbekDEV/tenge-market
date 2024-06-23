@@ -28,7 +28,7 @@ const SaleCarousel = () => {
                         700: {
                             slidesPerView: 3,
                         },
-                        420: {
+                        470: {
                             slidesPerView: 2,
                         },
                         380: {
