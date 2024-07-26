@@ -1,12 +1,16 @@
 import React from 'react'
 import Logo from '../assets/logo.svg'
+import img1 from '../assets/preielts.png'
+import img2 from '../assets/english.png'
 
 const Footer = () => {
     return (
         <div className='bg-[#03002b] py-16'>
             <div className="max-w-[1050px] m-auto max-lg:px-7">
-                <div className='flex justify-center'>
+                <div className='flex justify-center gap-10'>
+                    <img src={img1} alt="" className='w-10'/>
                     <img src={Logo} alt="" className='flex' />
+                    <img src={img2} alt="" className='w-10'/>
                 </div>
                 <div className='flex justify-between items-center mt-[40px] max-sm:grid gap-7 max-sm:text-center w-full'>
                     <div className='grid gap-5'>
