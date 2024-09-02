@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../assets/logo.svg'
-import img1 from '../assets/preielts.png'
-import img2 from '../assets/english.png'
+import img1 from '../assets/begov1.jpg'
+import img2 from '../assets/begov2.jpg'
 
 const Footer = () => {
     return (
